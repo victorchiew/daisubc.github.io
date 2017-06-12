@@ -6,4 +6,4 @@ img: /assets/img/members/photoVisa_Melissa.jpg
 program: PhD
 ---
 
-<img class="profile_img" src="{{ site.baseurl }}/assets/img/members/photoVisa_Melissa.jpg" alt="" title="photoVisa_Melissa"/>
+<img class="profile_img" src="{{ page.img | prepend: site.baseurl | prepend: site.url }}" alt=""/>

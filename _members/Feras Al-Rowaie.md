@@ -6,6 +6,4 @@ img: /assets/img/members/Alrowaie_Feras.jpg
 program: PhD
 ---
 
-<div class="img_row">
-    <img class="profile_img" src="{{ site.baseurl }}/assets/img/members/Alrowaie_Feras.jpg" alt="" title="Feras Al-Rowaie"/>
-</div>
+<img class="profile_img" src="{{ page.img | prepend: site.baseurl | prepend: site.url }}" alt=""/>

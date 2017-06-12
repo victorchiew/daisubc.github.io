@@ -5,56 +5,27 @@ permalink: /members/
 description: Current students and alumni.
 ---
 
-<h2>PhD</h2>
+<div class="toolbar">
+  <button class="btn fil-cat" href="" data-rel="All">All</button>
+  <button class="btn fil-cat" data-rel="PhD">PhD</button>
+  <button class="btn fil-cat" data-rel="MASc">MASc</button>
+  <button class="btn fil-cat" data-rel="BAsc">BAsc</button>
+</div> 
+
+<hr>
+<div id="members">
 {% for member in site.members %}
-<div class="member">
 <ul>
-{% if member.program == 'PhD' %}
-<li>
+<li class= "All {{ member.program }}" >
     <a href="{{ member.url | prepend: site.baseurl | prepend: site.url }}"> 
     <span>
-        <p>{{ member.title }}</p>
+        <b> {{ member.title }} </b>
+        <br>
+        {{ member.program }}
     </span>
     </a>
 </li>
-{% endif %}
+
 </ul>
-</div>
-
 {% endfor %}
-
-<h2>MASc</h2>
-{% for member in site.members %}
-<div class="member">
-<ul>
-{% if member.program == 'MASc' %}
-<li>
-    <a href="{{ member.url | prepend: site.baseurl | prepend: site.url }}"> 
-    <span>
-        <p>{{ member.title }}</p>
-    </span>
-    </a>
-</li>
-{% endif %}
-</ul>
 </div>
-
-{% endfor %}
-
-<h2>BASc</h2>
-{% for member in site.members %}
-<div class="member">
-<ul>
-{% if member.program == 'BASc' %}
-<li>
-    <a href="{{ member.url | prepend: site.baseurl | prepend: site.url }}"> 
-    <span>
-        <p>{{ member.title }}</p>
-    </span>
-    </a>
-</li>
-{% endif %}
-</ul>
-</div>
-
-{% endfor %}

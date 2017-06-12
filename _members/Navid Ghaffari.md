@@ -6,6 +6,4 @@ img: /assets/img/members/NavidGhaffari.jpg
 program: MASc
 ---
 
-<div class="img_row">
-    <img class="profile_img" src="{{ site.baseurl }}/assets/img/members/NavidGhaffari.jpg" alt="" title="NavidGhaffari"/>
-</div>
+<img class="profile_img" src="{{ page.img | prepend: site.baseurl | prepend: site.url }}" alt=""/>
