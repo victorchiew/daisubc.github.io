@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Group Members
+title: Members
 permalink: /members/
 description: Current students and alumni.
 ---
+<link rel="stylesheet" href="{{ '/assets/css/members.css' | prepend: site.baseurl | prepend: site.url }}">
 
 <div class="toolbar">
   <button class="btn fil-cat" href="" data-rel="All">All</button>
@@ -15,17 +16,13 @@ description: Current students and alumni.
 <hr>
 <div id="members">
 {% for member in site.members %}
-<ul>
-<li class= "All {{ member.program }}" >
-    <a href="{{ member.url | prepend: site.baseurl | prepend: site.url }}"> 
-    <span>
-        <b> {{ member.title }} </b>
-        <br>
-        {{ member.program }}
-    </span>
+    <a class="tile All {{ member.program }}" href="{{ member.url | prepend: site.baseurl | prepend: site.url }}"> 
+        <figure>
+            <img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}">
+            <figcaption>    
+            <b> {{ member.title }} </b> | {{ member.program }}
+            </figcaption>
+        </figure>
     </a>
-</li>
-
-</ul>
 {% endfor %}
 </div>
