@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Mahdi Yousefi
-description: Mahdi Yousefi
-img: /assets/img/members/mahdi.jpg
+title: Lee Rippon
+description: Lee Rippon
+img: /assets/img/members/lee.png
 program: PhD
 status: Current
 ---

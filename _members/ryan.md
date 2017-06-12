@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Mahdi Yousefi
-description: Mahdi Yousefi
-img: /assets/img/members/mahdi.jpg
+title: Ryan Jacobson
+description: Ryan Jacobson
+img: /assets/img/members/ryan.jpg
 program: PhD
 status: Current
 ---

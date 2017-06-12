@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Mahdi Yousefi
-description: Mahdi Yousefi
-img: /assets/img/members/mahdi.jpg
-program: PhD
+title: Steven Spielberg
+description: Steven Spielberg
+img: /assets/img/members/steven.jpg
+program: MASc
 status: Current
 ---
 

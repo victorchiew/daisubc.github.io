@@ -8,6 +8,5 @@ $(function() {
       $("."+selectedClass).fadeIn().addClass('scale-anm');
       $("#members").fadeTo(300, 1);
     }, 300); 
-		
 	});
 });
