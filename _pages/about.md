@@ -1,23 +1,24 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Data Analytics and Intelligent Systems</strong> Lab, UBC
+description: We develop and apply machine learning and data analytics techniques with a particular interest in process industries.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: bhushan_gopaluni.jpg
+  address: Prof. Bhushan Gopaluni, UBC Department of Chemical and Biological Engineering
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Dr. Gopaluni’s primary research interests are in Process Modeling and Control. He is interested in developing and studying the properties of data-based models for a variety of chemical and biological systems. These systems are typically nonlinear, hybrid and time varying, and their measurements are often noisy and irregular. The thrust of his research is on developing high quality models for such processes and adapting them to reflect process changes. His research interests also span a wide range of other areas including identification for control, model predictive controllers, adaptive control, and performance monitoring and assessment.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+The current focus of his group includes, but is not limited to, the following:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- Identification and Experiment Design for hybrid and irregularly sampled processes
+- Adaptive Estimation of irregularly sampled processes
+- Adaptation of above methods for small data sets and nonlinear systems
+- Applications of these approaches in the Oil & Gas and Pulp & paper industry, and Biomedical engineering
+

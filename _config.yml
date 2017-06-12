@@ -1,34 +1,33 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+name: DAIS Lab
+email: Bhushan.Gopaluni [at] ubc.ca
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  We develop and apply machine learning and data analytics techniques with a particular interest in process industries.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # put your github username
+github_username: daisubc # put your github username
 twitter_username: # put your twitter username
 linkedin_username: # put your linkedin username
-scholar_authorid: # put your google scholar author id
+scholar_authorid: 3rB_SGYAAAAJ # put your google scholar author id
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: dais
+blog_description: Data Analytics and Intelligent Systems Lab
 
 # Pagination
 paginate: 4
@@ -57,9 +56,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  members:
     output: true
-    permalink: /projects/:path/
+    permalink: /members/:path/
 
 news_limit: 5
 
@@ -83,7 +82,7 @@ gems:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Gopaluni
 
   style: apa
   locale: en
